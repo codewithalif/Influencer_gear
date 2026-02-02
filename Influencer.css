@@ -1,1 +1,46 @@
+/* All font family */
+.font-family {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
 /* Header Option all Style */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+nav span{
+  cursor: pointer;
+}
+
+/* This website all responsive styles are here */
+
+@media screen and (max-width:576px){
+  /* header side */
+  header{
+    flex-direction: column;
+    text-align: center;
+  }
+  header nav{
+    flex-direction: column;
+    gap: 10px;
+  }
+}
