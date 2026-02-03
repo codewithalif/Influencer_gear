@@ -1,4 +1,8 @@
-
+*{
+  /* max-width: 1440px; */
+  /* height: auto; */
+  /* width: 100%; */
+}
 /* All font family */
 .font-family {
   font-family: "Work Sans", sans-serif;
@@ -95,7 +99,43 @@ nav span{
   margin-right: 100px;
 }
 
+/* card related all styles */
+  h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
 
+.container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-left: 190px;
+      margin-right: 190px;
+    }
+    .products{
+      box-shadow: 6px 0px 10px rgb(139, 138, 138) ;
+      padding: 10px;
+    }
+    .products img{
+      width: 100%;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .card-star{
+      color:tomato;
+    }
+
+    .card-button{
+      background-color:cornflowerblue;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      height: 30px;
+      width: 80px;
+      cursor: pointer;
+    }
 
 /* This website all responsive styles are here */
 
@@ -145,4 +185,16 @@ nav span{
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
   }
+
+  /* card related styles */
+
+  .container{
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    gap: 40px;
+  }
+  .products img{
+      width: 100%;
+      border-radius: 10px;
+      cursor: pointer;}
 }
