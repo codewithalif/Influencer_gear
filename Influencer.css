@@ -112,6 +112,12 @@ nav span{
       margin-left: 190px;
       margin-right: 190px;
     }
+    a{
+      text-decoration: none;
+      align-items: center;
+      cursor: pointer;
+      margin-top: 30px;
+    }
     .products{
       box-shadow: 6px 0px 10px rgb(139, 138, 138) ;
       padding: 10px;
