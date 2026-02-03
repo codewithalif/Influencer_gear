@@ -1,3 +1,4 @@
+
 /* All font family */
 .font-family {
   font-family: "Work Sans", sans-serif;
@@ -31,6 +32,49 @@ nav span{
   cursor: pointer;
 }
 
+/* Main section all styles  */
+
+.camera-section{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.camera-section-text{
+  padding-right:130px ;
+}
+
+.camera-section-text h3{
+  font-size:3rem ;
+  margin: 0;
+  padding-bottom: 16px;
+}
+.camera-section-text p{
+  margin: 0;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.camera-section img{
+  display: block;
+  max-width: 100%;
+}
+
+#camera-button{
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgba(224, 44, 109, 1);
+  color:white;
+  font-weight: bolder;
+  border: 0;
+  cursor: pointer;
+}
+
+.camera-section img{
+  background-image: url(images/Circle\ design.svg);
+}
+
 /* This website all responsive styles are here */
 
 @media screen and (max-width:576px){
@@ -42,5 +86,34 @@ nav span{
   header nav{
     flex-direction: column;
     gap: 10px;
+  }
+
+  /* main section camera side */
+
+  .camera-section {
+    flex-direction: column-reverse;
+    justify-content: center;   
+    align-items: center;
+    text-align: center;
+  }
+
+  .camera-section-text {
+    padding-right: 0;
+    margin-bottom: 24px;
+    padding-top: 50px;
+  }
+
+  .camera-section h3{
+    font-size:1.75rem;
+  }
+
+  .camera-section p br{
+    display: none;
+  }
+
+
+  .camera-section img {
+    width: 260px;
+    display: block;
   }
 }
